@@ -4,31 +4,21 @@ Title: Functional MRI Quality Assurance Routines
 Version: 0.4.0
 Date: 2019-01-10
 Authors@R: person("Martin", "Wilson", email = "martin@pipegrep.co.uk",
-                   role = c("cre","aut"))
-Description: Methods for performing fMRI quality assurance (QA) measurements of
-  test objects. Heavily  based on the fBIRN procedures detailed by Friedman and 
-  Glover (2006) <doi:10.1002/jmri.20583>.
+        role = c("cre","aut"))
+Description: Methods for performing fMRI quality assurance (QA)
+        measurements of test objects. Heavily based on the fBIRN
+        procedures detailed by Friedman and Glover (2006)
+        <doi:10.1002/jmri.20583>.
 BugReports: https://github.com/martin3141/fmriqa/issues
 License: GPL-3
 LazyData: true
 RoxygenNote: 6.1.1
-Imports:
-  viridisLite,
-  RNifti,
-  ggplot2,
-  reshape2,
-  gridExtra,
-  grid,
-  tidyr,
-  optparse,
-  tcltk,
-  RcppEigen,
-  imager,
-  pracma
+Imports: viridisLite, RNifti, ggplot2, reshape2, gridExtra, grid,
+        tidyr, optparse, tcltk, RcppEigen, imager, pracma
 Encoding: UTF-8
-Suggests: 
-    testthat,
-    covr,
-    knitr,
-    rmarkdown
+Suggests: testthat, covr, knitr, rmarkdown
 VignetteBuilder: knitr
+Repository: Neuroconductor
+Remotes: 
+    neuroconductor/RNifti@929106d1b17d6c09c8b001b5e39d448ed9ef635f
+biocViews: 
